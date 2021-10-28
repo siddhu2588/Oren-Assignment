@@ -18,7 +18,7 @@ function Card(props) {
     return (
         <>
             <div>
-            <img src={arr[index]} alt="UserImage"/>
+            <img src={arr[index]} alt="UserImage" style={{width: "390px", height: "260px"}}/>
             <div id="name" style={{fontWeight: "bold", fontSize: "20px"}}>{props.name}</div>
             <div style={{color:"grey", fontSize: "16px"}}>{props.email}</div>
             <div style={{color:"grey"}}>{props.phone}</div>
